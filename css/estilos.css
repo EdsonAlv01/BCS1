@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    /* background-image: url(../imagenes/edificios.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(130, 139, 160);
+    padding-bottom: 30px;
+}
+.imgCab{
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+}
+#headerImg{
+    background-image: url('../imagenes/bannerBJ.jpg');
+    text-align: center;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+.mb-3{
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.ServT{
+    text-align: center;
+    color: rgb(247, 247, 247);
+    text-shadow: 5px 3px 10px rgb(0, 0, 0);
+    font-size: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+   
+    border-color: black;
+}
+#inicioT{
+    padding: 0px;
+    font-size: 6vh;
+    text-shadow: 7px 5px 0px rgb(0, 0, 0);
+    text-align: left;
+    margin: 10px;
+}
+.caja-texto{
+    width: 100%;
+    background: rgb(130,139,160);
+    background: radial-gradient(circle, rgba(130,139,160,1) 0%, rgba(14,30,46,1) 100%);
+    padding-bottom: 30px;
+}
+
+/* Carrusel INICIO */
+.carrusel-In{
+    box-shadow: -5px 10px 15px rgb(255, 255, 255); 
+    height: 40rem;
+}
+.carrusel-itemIn{
+    height: 40rem;
+}
+
+/* Carrusel Historia */
+.carrusel-Hist{
+    border-radius: 40px;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255); 
+}
+
+/* Carrusel Experiencias */
+.carrusel-Exp{
+    box-shadow: -5px 10px 15px rgb(255, 255, 255); 
+    height: 40rem;
+}
+.carrusel-itemExp{
+    height: 40rem;
+}
+
+.h2Text{
+    color: white;
+    margin: 20px;
+    padding: 10px;    
+    text-align: center;
+}
+#h2T{
+    font-size: 5vh;
+    padding: 30px;
+}
+.separador{
+    margin: auto;
+    box-shadow: 5px 3px 10px rgb(0, 0, 0);
+}
+.HistoriaS{
+    border-radius: 10px;
+    margin: 100px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 20px;
+    background: rgb(130,139,160);
+    background: linear-gradient(90deg, rgba(130,139,160,1) 0%, rgba(14,30,46,1) 100%);
+}
+.HistoriaS img{
+    border-radius: 10px;
+}
+.btnContacto{
+    margin: auto;
+    text-align: center;
+    
+}
+.btnContacto button{
+    width: 30%;
+    background-color: rgb(31, 40, 59);
+    font-weight: bold;
+    border-color: rgb(31, 40, 59);
+    border-radius: 25px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+.servicios{
+    margin: 0 15% 30px 15%;
+}
+.parrafo{
+    text-align:justify;
+    color: white;    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    background: rgb(130,139,160);
+    background: linear-gradient(90deg, rgba(130,139,160,1) 0%, rgba(14,30,46,1) 100%);
+    padding: 80px;
+    border-radius: 15px;
+}
+.pinfo{
+    display: inline;
+    margin: auto;
+    color: rgb(241, 241, 255);
+    font-weight: bold;
+    margin: 20px;
+    background-color: rgba(180, 180, 180, 0.795);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+#historiaC{
+    margin-bottom: 40px;
+    margin: 40px;
+}
+
+.vyp{
+    margin: 40px 15% 30px 15%;
+}
+.vyp h2{
+    margin-bottom: 30px;
+}
+.cajasE{
+    color: white;
+    padding: 10px;
+}
+#imgE{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+#cajasInicio{
+    padding: 10px;
+    text-align: justify;
+    color: white;
+}
+#clientesDest{
+    padding: 30px;
+    margin: 50px;
+}
+.rowContacto{
+    box-shadow: 0px 0px 15px rgb(255, 255, 255);
+    padding: 20px;
+    background: rgb(130,139,160);
+    border-radius: 30px;
+    background: radial-gradient(circle, rgba(130,139,160,1) 0%, rgba(14,30,46,1) 100%);
+}
+.cajaContacto{
+    text-align: center;
+    color: white;
+}
+.contContacto{
+    padding-top: 40px;
+    
+}
+.cajaContacto h2{
+    font-weight: bold;
+    padding-top: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+.cajaContacto p{
+    font-size: 20px;
+}
+
+.formTop{
+    text-align: center;
+    padding-top: 30px;
+}
+.formTop h3{
+    text-align: center;
+    font-weight: bold;
+}
+.formTop h6{
+    text-align: center;
+    font-weight: inherit;
+}
+.formCont button{
+    margin: auto;
+    width: 60%;
+    display: block;
+    text-align: center;
+}
+.form-group{
+    display: inline;
+   
+    padding: 5%;
+}
+.contact-form input{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    color: black;
+}
+.contact-form textarea{
+    width: 60%;
+    margin: auto;
+}
+.contact-form input::placeholder{
+    color: black;
+}
+.contact-form textarea::placeholder{
+    color: black;
+}
+.textoCol{
+    padding: 0px;
+}
+/*Main*/
+
+/*Pie de Pagina*/
+
+#piePagina{
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: rgb(31, 40, 59);
+    font-size: 20px;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbarPie a{
+    padding: 10px;
+    color: rgb(134, 134, 134);
+    text-decoration: none;
+}
+.navbarPie a:hover{
+    color: rgb(175, 76, 45);
+}
+.copy{
+    padding: 20px;
+}
+
+/*Pie de Pagina*/
+@media (max-width: 1999px) {
+    .ServT{
+        font-size: 150px;
+        transition: all 1s;
+        padding-top: 5px;
+    }
+}
+@media (max-width: 998px) {
+    .ServT{
+        font-size: 100px;
+        padding-top: 10px;
+    }
+    .textoCol{
+        padding-top: 20px;
+    }
+}
+/*Responsive*/
+@media (max-width: 767px){
+    .ServT{
+        font-size: 80px;
+        transition: all 1s;
+        padding-top: 20px;
+    }
+    .rowContacto{
+        border-radius: 20px;
+        transition: all 1.5s;
+    }
+    .parrafo{
+        padding: 30px;
+    }
+    .textoCol{
+        padding-top: 30px;
+    }
+    .btnContacto button{
+        width: 150px;
+        transition: all .5s ease-in;
+    }
+}
+@media (max-width: 575px){
+    .ServT{
+        transition: all 1s;
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .carousel-inner{
+        height: 25rem;
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    #h2T{
+        font-size: 30px;
+    }
+    #cajasInicio{
+        padding: 10px;
+    }
+    .HistoriaS{
+        margin: 30px;
+    }
+    .HistoriaS p{
+        padding-top: 20px;
+    }
+    .btnContacto button{
+        font-size: 15px; 
+        width: 50%;
+    }
+    .parrafo{
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .carrusel-Hist{
+        border-radius: 0px;
+        box-shadow: -5px 10px 15px rgb(0, 0, 0); 
+    }
+    #historiaC{
+        margin-bottom: 40px;
+        margin: 0px;
+    }
+    .carrusel-Exp{
+        height: 20rem;
+    }
+    .carrusel-itemExp{
+        height: 20rem;
+    }
+    #clientesDest{
+        padding: 20px;
+        margin: 20px;
+    }
+    #imgE{
+        height: 15rem;
+    }
+    .formTop{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .formTop h3{
+        font-size: 20px;
+    }
+    .formTop h6{
+        font-size: 12px;
+    }
+    .formCont button{
+        margin: auto;
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .formCont input{
+        width: 80%;
+    }
+    .formCont textarea{
+        width: 80%;
+    }
+    input{
+        height: 32px;
+    }
+    .contact-form input::placeholder{
+        font-size: 14px;
+    }
+    .contact-form textarea::placeholder{
+        font-size: 14px;
+    }
+    .rowContacto{
+        border-radius: 0px;
+        transition: all 1.5s ease-in;
+    }
+}
